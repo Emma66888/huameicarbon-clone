@@ -9,7 +9,14 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700;900&family=Source+Sans+Pro:wght@400;600;700;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="../css/style.css">
+
+<script>
+(function(){
+  var p=location.pathname;
+  if(p.endsWith(".html") && p!=="/index.html") location.replace(p.replace(/\.html$/,""));
+})();
+</script>
 </head>
 <body>
 
@@ -27,24 +34,24 @@
   <!-- Header -->
   <header class="main-header" id="mainHeader">
     <div class="container">
-      <div class="logo"><a href="index.html"><div class="logo-img">HM</div>Huamei Carbon</a></div>
+      <div class="logo"><a href="../"><div class="logo-img">HM</div>Huamei Carbon</a></div>
       <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
       <nav class="main-nav" id="mainNav">
         <ul class="nav-list">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about-us.html">About Us</a></li>
-          <li><a href="products.html" class="active">Products <span class="arrow">&#9662;</span></a>
+          <li><a href="../">Home</a></li>
+          <li><a href="../about-us/">About Us</a></li>
+          <li><a href="../products/" class="active">Products <span class="arrow">&#9662;</span></a>
             <ul class="dropdown">
-              <li><a href="products/granular-activated-carbon.html">Granular Activated Carbon</a></li><li><a href="products/pellet-activated-carbon.html">Pellet Activated Carbon</a></li><li><a href="products/powdered-activated-carbon.html">Powdered Activated Carbon</a></li><li><a href="products/coconut-shell-activated-carbon.html">Coconut Shell Activated Carbon</a></li><li><a href="products/coal-based-activated-carbon.html">Coal Based Activated Carbon</a></li><li><a href="products/wood-based-activated-carbon.html">Wood Based Activated Carbon</a></li><li><a href="products/honeycomb-activated-carbon.html">Honeycomb Activated Carbon</a></li><li><a href="products/custom-activated-carbon.html">Custom Activated Carbon</a></li>
+              <li><a href="../products/granular-activated-carbon/">Granular Activated Carbon</a></li><li><a href="../products/pellet-activated-carbon/">Pellet Activated Carbon</a></li><li><a href="../products/powdered-activated-carbon/">Powdered Activated Carbon</a></li><li><a href="../products/coconut-shell-activated-carbon/">Coconut Shell Activated Carbon</a></li><li><a href="../products/coal-based-activated-carbon/">Coal Based Activated Carbon</a></li><li><a href="../products/wood-based-activated-carbon/">Wood Based Activated Carbon</a></li><li><a href="../products/honeycomb-activated-carbon/">Honeycomb Activated Carbon</a></li><li><a href="../products/custom-activated-carbon/">Custom Activated Carbon</a></li>
             </ul>
           </li>
           <li><a href="#">Application <span class="arrow">&#9662;</span></a><ul class="dropdown"><li><a href="#">Water Treatment</a></li><li><a href="#">Oil &amp; Gas</a></li><li><a href="#">Amine Filtration</a></li><li><a href="#">Biogas Purification</a></li><li><a href="#">Gold Recovery</a></li><li><a href="#">VOCs Removal</a></li><li><a href="#">Food &amp; Beverage</a></li><li><a href="#">Solvent Recovery</a></li><li><a href="#">Air Purification</a></li><li><a href="#">PVC Manufacturing</a></li></ul></li>
           <li><a href="#">Video</a></li>
-          <li><a href="contact-us.html">Contact Us</a></li>
+          <li><a href="../contact-us/">Contact Us</a></li>
           <li><a href="#">Blog <span class="arrow">&#9662;</span></a><ul class="dropdown"><li><a href="#">Blog Catalog</a></li><li><a href="#">Blog Content</a></li></ul></li>
         </ul>
       </nav>
-      <div class="header-actions"><a href="contact-us.html" class="btn btn-primary btn-sm">Submit RFQ</a></div>
+      <div class="header-actions"><a href="../contact-us/" class="btn btn-primary btn-sm">Submit RFQ</a></div>
     </div>
   </header>
   <div class="mobile-nav-overlay" id="mobileOverlay"></div>
@@ -53,7 +60,7 @@
   <section class="page-banner">
     <div class="container">
       <h1>Activated Carbon Supplier</h1>
-      <p class="breadcrumb"><a href="index.html">Home</a> / Products</p>
+      <p class="breadcrumb"><a href="../">Home</a> / Products</p>
     </div>
   </section>
 
@@ -63,7 +70,7 @@
       <div style="max-width:800px;margin:0 auto;text-align:center">
         <p style="font-size:1.1rem;color:var(--text-light);margin-bottom:20px">Global Bulk Supply, Inexpensive and Powerful. High quality coconut shell, coal and wood as raw materials. Granular, powdered, extruded and honeycomb forms. Standard, washed, impregnated and catalytic activated carbon for sale.</p>
         <p style="color:var(--primary-dark);font-weight:600">&#10003; Support sample testing, <strong>free</strong> samples</p>
-        <a href="contact-us.html" class="btn btn-primary" style="margin-top:20px">Get Instant Quote</a>
+        <a href="../contact-us/" class="btn btn-primary" style="margin-top:20px">Get Instant Quote</a>
       </div>
     </div>
   </section>
@@ -77,11 +84,11 @@
         <div class="card" id="granular">
           <div class="card-img"><div class="placeholder-img"><i class="fa-solid fa-cubes" style="font-size:3rem"></i></div></div>
           <div class="card-body">
-            <h3><a href="products/granular-activated-carbon.html">Granular Activated Carbon</a></h3>
+            <h3><a href="../products/granular-activated-carbon/">Granular Activated Carbon</a></h3>
             <p>Coconut shell &amp; Coal based granular activated carbon. Available in multiple mesh sizes for water cartridges, wastewater treatment, gas treatment, mercury removal, food &amp; beverage, gold recovery, and pharmaceuticals.</p>
             <div class="card-actions">
-              <a href="contact-us.html" class="btn btn-primary btn-sm">Request a Quote</a>
-              <a href="products/granular-activated-carbon.html" class="btn btn-outline btn-sm">Specifications</a>
+              <a href="../contact-us/" class="btn btn-primary btn-sm">Request a Quote</a>
+              <a href="../products/granular-activated-carbon/" class="btn btn-outline btn-sm">Specifications</a>
             </div>
           </div>
         </div>
@@ -89,11 +96,11 @@
         <div class="card" id="pellet">
           <div class="card-img"><div class="placeholder-img"><i class="fa-solid fa-cylinder" style="font-size:3rem"></i></div></div>
           <div class="card-body">
-            <h3><a href="products/pellet-activated-carbon.html">Pellet Activated Carbon</a></h3>
+            <h3><a href="../products/pellet-activated-carbon/">Pellet Activated Carbon</a></h3>
             <p>Coconut shell &amp; Coal based cylindrical activated carbon. Diameter 0.9-8mm, most commonly 4mm. High activity for VOCs, H&#x2082;S, and natural gas mercury removal applications.</p>
             <div class="card-actions">
-              <a href="contact-us.html" class="btn btn-primary btn-sm">Request a Quote</a>
-              <a href="products/pellet-activated-carbon.html" class="btn btn-outline btn-sm">Specifications</a>
+              <a href="../contact-us/" class="btn btn-primary btn-sm">Request a Quote</a>
+              <a href="../products/pellet-activated-carbon/" class="btn btn-outline btn-sm">Specifications</a>
             </div>
           </div>
         </div>
@@ -101,11 +108,11 @@
         <div class="card" id="powder">
           <div class="card-img"><div class="placeholder-img"><i class="fa-solid fa-droplet" style="font-size:3rem"></i></div></div>
           <div class="card-body">
-            <h3><a href="products/powdered-activated-carbon.html">Powdered Activated Carbon</a></h3>
+            <h3><a href="../products/powdered-activated-carbon/">Powdered Activated Carbon</a></h3>
             <p>Coconut shell, wood &amp; Coal based powder. Various fineness for water treatment, sugar/oil decolorization, food &amp; beverage, pharmaceuticals, and waste incineration gas treatment.</p>
             <div class="card-actions">
-              <a href="contact-us.html" class="btn btn-primary btn-sm">Request a Quote</a>
-              <a href="products/powdered-activated-carbon.html" class="btn btn-outline btn-sm">Specifications</a>
+              <a href="../contact-us/" class="btn btn-primary btn-sm">Request a Quote</a>
+              <a href="../products/powdered-activated-carbon/" class="btn btn-outline btn-sm">Specifications</a>
             </div>
           </div>
         </div>
@@ -113,11 +120,11 @@
         <div class="card" id="honeycomb">
           <div class="card-img"><div class="placeholder-img"><i class="fa-solid fa-th" style="font-size:3rem"></i></div></div>
           <div class="card-body">
-            <h3><a href="products/honeycomb-activated-carbon.html">Honeycomb Activated Carbon</a></h3>
+            <h3><a href="../products/honeycomb-activated-carbon/">Honeycomb Activated Carbon</a></h3>
             <p>Innovative form with large contact area and developed micropores. Low wind resistance, high adsorption capacity. Ideal for high-flow, low-concentration VOC purification.</p>
             <div class="card-actions">
-              <a href="contact-us.html" class="btn btn-primary btn-sm">Request a Quote</a>
-              <a href="products/honeycomb-activated-carbon.html" class="btn btn-outline btn-sm">Specifications</a>
+              <a href="../contact-us/" class="btn btn-primary btn-sm">Request a Quote</a>
+              <a href="../products/honeycomb-activated-carbon/" class="btn btn-outline btn-sm">Specifications</a>
             </div>
           </div>
         </div>
@@ -133,21 +140,21 @@
         <div class="card" id="coconut">
           <div class="card-img"><div class="placeholder-img"><i class="fa-solid fa-seedling" style="font-size:3rem"></i></div></div>
           <div class="card-body">
-            <h3><a href="products/coconut-shell-activated-carbon.html">Coconut Shell Activated Carbon</a></h3>
+            <h3><a href="../products/coconut-shell-activated-carbon/">Coconut Shell Activated Carbon</a></h3>
             <p>All grades of coconut shell carbon for water treatment, gold recovery, food &amp; beverage industries. High hardness and iodine value up to 1200.</p>
           </div>
         </div>
         <div class="card" id="coal">
           <div class="card-img"><div class="placeholder-img" style="font-size:3rem">&#9964;</div></div>
           <div class="card-body">
-            <h3><a href="products/coal-based-activated-carbon.html">Coal Based Activated Carbon</a></h3>
+            <h3><a href="../products/coal-based-activated-carbon/">Coal Based Activated Carbon</a></h3>
             <p>Granular, pellet, and powder forms from anthracite and bituminous coal. For liquid and gas phase adsorption across industries.</p>
           </div>
         </div>
         <div class="card" id="wood">
           <div class="card-img"><div class="placeholder-img"><i class="fa-solid fa-tree" style="font-size:3rem"></i></div></div>
           <div class="card-body">
-            <h3><a href="products/wood-based-activated-carbon.html">Wood Based Activated Carbon</a></h3>
+            <h3><a href="../products/wood-based-activated-carbon/">Wood Based Activated Carbon</a></h3>
             <p>Phosphoric acid process wood powder. Primarily for water treatment, sugar decolorization, and similar applications.</p>
           </div>
         </div>
@@ -209,7 +216,7 @@
             <li style="margin-bottom:8px;color:var(--text-light)">Catalytic carbon for advanced oxidation</li>
             <li style="margin-bottom:8px;color:var(--text-light)">Custom mesh/size distributions</li>
           </ul>
-          <a href="contact-us.html" class="btn btn-primary" style="margin-top:25px">Discuss Your Requirements</a>
+          <a href="../contact-us/" class="btn btn-primary" style="margin-top:25px">Discuss Your Requirements</a>
         </div>
         <div>
           <div class="card-img" style="aspect-ratio:4/3;border-radius:var(--radius-lg);overflow:hidden">
@@ -254,7 +261,7 @@
     <div class="container" data-aos="fade-up">
       <h2>Need a Custom Activated Carbon Solution?</h2>
       <p>Contact our experts today for free consultation and sample testing. We'll find the perfect carbon for your application.</p>
-      <a href="contact-us.html" class="btn btn-outline-white btn-lg">Get Your Free Quote</a>
+      <a href="../contact-us/" class="btn btn-outline-white btn-lg">Get Your Free Quote</a>
     </div>
   </section>
 
@@ -275,14 +282,14 @@
             <a href="https://www.youtube.com/channel/UC6_POIf0f6zePOwig-UoTPA" target="_blank" rel="noopener"><i class="fa-brands fa-youtube"></i></a>
           </div>
         </div>
-        <div class="footer-col"><h4>Products</h4><ul><li><a href="products/granular-activated-carbon.html">Granular Activated Carbon</a></li><li><a href="products/pellet-activated-carbon.html">Pellet Activated Carbon</a></li><li><a href="products/coconut-shell-activated-carbon.html">Coconut Shell Activated Carbon</a></li><li><a href="products/coal-based-activated-carbon.html">Coal Based Activated Carbon</a></li><li><a href="products/wood-based-activated-carbon.html">Wood Based Activated Carbon</a></li><li><a href="products/honeycomb-activated-carbon.html">Honeycomb Activated Carbon</a></li></ul></div>
-        <div class="footer-col"><h4>Company</h4><ul><li><a href="index.html">Home</a></li><li><a href="about-us.html">About Us</a></li><li><a href="contact-us.html">Contact Us</a></li><li><a href="#">Privacy Policy</a></li></ul></div>
+        <div class="footer-col"><h4>Products</h4><ul><li><a href="../products/granular-activated-carbon/">Granular Activated Carbon</a></li><li><a href="../products/pellet-activated-carbon/">Pellet Activated Carbon</a></li><li><a href="../products/coconut-shell-activated-carbon/">Coconut Shell Activated Carbon</a></li><li><a href="../products/coal-based-activated-carbon/">Coal Based Activated Carbon</a></li><li><a href="../products/wood-based-activated-carbon/">Wood Based Activated Carbon</a></li><li><a href="../products/honeycomb-activated-carbon/">Honeycomb Activated Carbon</a></li></ul></div>
+        <div class="footer-col"><h4>Company</h4><ul><li><a href="../">Home</a></li><li><a href="../about-us/">About Us</a></li><li><a href="../contact-us/">Contact Us</a></li><li><a href="#">Privacy Policy</a></li></ul></div>
         <div class="footer-col"><h4>Blog</h4><ul><li><a href="#">Knowledge &amp; News</a></li><li><a href="#">Case Studies</a></li></ul></div>
       </div>
       <div class="footer-bottom"><p>&copy; Copyright 2007 - 2026 Huamei Activated Carbon Co., Ltd. - All Rights Reserved</p></div>
     </div>
   </footer>
 
-  <script src="js/main.js"></script>
+  <script src="../js/main.js"></script>
 </body>
 </html>
